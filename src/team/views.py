@@ -5,7 +5,6 @@ from django_filters.rest_framework import DjangoFilterBackend
 from .models import Team
 from .serializers import TeamSerializer
 
-# Кастомная пагинация
 class TeamPagination(PageNumberPagination):
     page_size = 3
     page_size_query_param = 'page_size'
