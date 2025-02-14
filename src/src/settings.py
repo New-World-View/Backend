@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'team',
     'advantages',
     'cources',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
