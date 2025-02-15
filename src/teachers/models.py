@@ -1,7 +1,8 @@
 from django.db import models
 
+# Create your models here.
 
-class Team(models.Model):
+class Teachers(models.Model):
     image = models.ImageField(upload_to='uploads/')
     username = models.TextField(max_length=150)
     profession = models.TextField(max_length=70)
